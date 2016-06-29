@@ -1,0 +1,6 @@
+Contact.create!(name: "Bruce Wayne", email: "definitelynotbatman@batman.biz")
+Contact.create!(name: "Batman", email: "the@batman.biz")
+Contact.create!(name: "Damian Wayne", email: "dark_robin@batman.biz")
+Contact.create!(name: "Alfred Pennyworth", email: "batmans_batman@batman.biz")
+Contact.create!(name: "Barbara Gordon", email: "oracle@batman.biz")
+Contact.create!(name: "Stephanie Brown", email: "girl_robin@batman.biz")
