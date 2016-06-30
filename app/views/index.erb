@@ -2,9 +2,11 @@
 
 <div class="options">
   <button id="all">All</button>
-  <button>Show [id]</button>
-  <button>Search [keyword]</button>
-  <button>Add new contact</button>
+  <form id="find" method="post" action="contacts/">
+    <label for="id">Find by ID</label>
+    <input type="number" min=0 max=1000 name="id" id="id">
+    <input type="submit">
+  </form>
 </div>
 <hr>
 <table id="contacts">
